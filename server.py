@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Root route for testing
 @app.route("/")
 def home():
-    return "Skyblock Classic Server Running 🚀"
+    return "Blockman Go Private Server Running"
 
 # Example create account route
 @app.route("/create_account")
